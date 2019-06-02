@@ -1,0 +1,24 @@
+{
+  "name": "webpck4.x",
+  "version": "1.0.0",
+  "description": "webpck4学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js --progress --mode=development",
+    "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --mode=production"
+  },
+  "keywords": [
+    "webpack4"
+  ],
+  "author": "陌上寒",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
