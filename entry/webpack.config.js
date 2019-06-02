@@ -1,5 +1,9 @@
+const path =require('path')
 module.exports = {
-  entry: "./src/index.js",//单入口简写
+  context: path.resolve(__dirname, "src"),
+  entry: "./index.js",//单入口简写
+
+  // entry: "./src/index.js",//单入口简写
   // entry: {
     // main1: "./src/index.js",
     // MutiEntryIndex1:"./src/MutiEntryIndex1.js",
